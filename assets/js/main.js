@@ -61,7 +61,7 @@
     var body = 'Name: ' + data.get('name') + '\n' +
       'Phone: ' + data.get('phone') + '\n\n' +
       data.get('message');
-    window.location.href = 'mailto:bhavya.it@gmail.com,Kumarmithun094@gmail.com' +
+    window.location.href = 'mailto:info@bhavyait-security.in,Kumarmithun094@gmail.com' +
       '?subject=' + encodeURIComponent(subject) +
       '&body=' + encodeURIComponent(body);
   });
